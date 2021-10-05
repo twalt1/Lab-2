@@ -6,8 +6,8 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.profilemanager_lab2"
-        minSdk 21
+        applicationId "com.example.sportsteam"
+        minSdk 23
         targetSdk 31
         versionCode 1
         versionName "1.0"

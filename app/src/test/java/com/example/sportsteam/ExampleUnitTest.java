@@ -1,4 +1,4 @@
-package com.example.profilemanager_lab2;
+package com.example.sportsteam;
 
 import org.junit.Test;
 
