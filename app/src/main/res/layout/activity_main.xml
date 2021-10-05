@@ -7,13 +7,14 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/avatar_view"
         android:layout_width="wrap_content"
         tools:layout_editor_absoluteX="141dp"
         tools:layout_editor_absoluteY="75dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
+        android:id="@+id/title_box"
         android:layout_width="404dp"
         android:layout_height="52dp"
         android:text="NBA Team Manager 2021"
@@ -26,7 +27,7 @@
         app:layout_constraintVertical_bias="0.023" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/player_name_box"
         android:layout_width="359dp"
         android:layout_height="45dp"
         android:ems="10"
@@ -44,7 +45,7 @@
         tools:layout_editor_absoluteY="397dp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/postal_box"
         android:layout_width="359dp"
         android:layout_height="45dp"
         android:ems="10"
@@ -62,7 +63,7 @@
         tools:layout_editor_absoluteY="530dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/maps_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Go to Google Maps!"
