@@ -10,66 +10,60 @@
         android:id="@+id/textView18"
         android:layout_width="91dp"
         android:layout_height="32dp"
+        android:layout_marginTop="11dp"
         android:text="Postal Code"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="517dp"
-        tools:text="Team Name" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/postalCode"
+        tools:text="Postal Code" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName13"
+        android:id="@+id/postalCode"
         android:layout_width="350dp"
         android:layout_height="52dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="24dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Please enter a postal code"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName14" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="91dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="272dp"
-        android:text="TextView"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/titleText"
-        tools:text="Postal Code" />
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
     <EditText
         android:id="@+id/editTextTextPersonName14"
         android:layout_width="350dp"
         android:layout_height="52dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="60dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Please enter your team name"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+        app:layout_constraintTop_toBottomOf="@+id/titleText6" />
 
     <ImageView
         android:id="@+id/avatar6"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:layout_marginTop="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="129dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars"
+        android:src="@drawable/nba1"/>
 
     <TextView
         android:id="@+id/titleText6"
         android:layout_width="207dp"
         android:layout_height="44dp"
+        android:layout_marginTop="20dp"
         android:text="NBA Team Manager"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/avatar6" />
 
@@ -77,25 +71,23 @@
         android:id="@+id/textView16"
         android:layout_width="91dp"
         android:layout_height="32dp"
-        android:layout_marginBottom="388dp"
+        android:layout_marginTop="8dp"
         android:text="Team Name"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleText6"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName14"
         tools:text="Team Name" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="148dp"
+        android:layout_marginTop="15dp"
         android:text="Open In Google Maps"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName13" />
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        android:onClick="onOpenGoogleMaps"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
